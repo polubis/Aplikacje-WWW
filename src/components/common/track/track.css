@@ -1,0 +1,21 @@
+.track{
+    padding: 10px;
+    background: white;
+    margin: 15px 0;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: .5s;
+}
+.current-playing-track{
+    border-bottom-color: #8CD18C;
+}
+.track p{
+    margin: 0;
+    padding: 5px 0;
+}
+.track .title-p{
+    color: #545454;
+}
+.title-p span:first-of-type{
+    margin-right: 5px;
+}
